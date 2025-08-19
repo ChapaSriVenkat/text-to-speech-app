@@ -3,9 +3,9 @@ import mysql.connector
 def get_connection():
     return mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="Srii@773",
-        database="logins"
+        user="your_username",
+        password="Your_password",
+        database="Your_database"
     )
 
 def create_user_table():
